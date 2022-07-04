@@ -13,7 +13,7 @@
         <script><![CDATA[function onLoad() {
     //Type appropriate comment here, and begin script below
     console.log("hi servicenow");
-	console.log("source control");
+
 
     var gr = new GlideRecord("incident");
     gr.query();
@@ -54,7 +54,6 @@
         <sys_scope display_value="TestSNApp">2f17dea02f2051d0c75eea5ef699b6b2</sys_scope>
         <sys_update_name>sys_script_client_3e41aee82fa451d0c75eea5ef699b608</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-04 14:33:26</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>
