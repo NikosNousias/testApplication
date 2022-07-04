@@ -13,6 +13,7 @@
         <script><![CDATA[function onLoad() {
     //Type appropriate comment here, and begin script below
     console.log("hi servicenow");
+	console.log("hi sn world");
 
     var gr = new GlideRecord("incident");
     gr.query();
@@ -45,7 +46,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3e41aee82fa451d0c75eea5ef699b608</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>TEST1</sys_name>
         <sys_overrides/>
         <sys_package display_value="TestSNApp" source="x_528964_testsnapp">2f17dea02f2051d0c75eea5ef699b6b2</sys_package>
@@ -53,7 +54,7 @@
         <sys_scope display_value="TestSNApp">2f17dea02f2051d0c75eea5ef699b6b2</sys_scope>
         <sys_update_name>sys_script_client_3e41aee82fa451d0c75eea5ef699b608</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-04 13:32:30</sys_updated_on>
+        <sys_updated_on>2022-07-04 14:30:16</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>
