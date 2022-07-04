@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>TEST1</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    console.log("loaded");
+    console.log("hi");
+
+    var gr = new GlideRecord("");
+    gr.addQuery("name", "value");
+    gr.query();
+    if (gr.next()) {
+
+    }
+
+    /**
+ 
+* Description: 
+ 
+* Parameters: 
+ 
+* Returns:
+*/
+    /**
+ 
+* Description: 
+ 
+* Parameters: 
+ 
+* Returns:
+*/
+
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-04 13:29:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3e41aee82fa451d0c75eea5ef699b608</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEST1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TestSNApp" source="x_528964_testsnapp">2f17dea02f2051d0c75eea5ef699b6b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TestSNApp">2f17dea02f2051d0c75eea5ef699b6b2</sys_scope>
+        <sys_update_name>sys_script_client_3e41aee82fa451d0c75eea5ef699b608</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-04 13:29:38</sys_updated_on>
+        <table/>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
