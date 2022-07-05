@@ -16,7 +16,7 @@
     gr.addQuery("name", "value");
     gr.query();
     if (gr.next()) {
-
+           //ssss
     }
 
 }]]></script>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a9e616302f24d9d0c75eea5ef699b645</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>ttttestimg</sys_name>
         <sys_overrides/>
         <sys_package display_value="TestSNApp" source="x_528964_testsnapp">2f17dea02f2051d0c75eea5ef699b6b2</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="TestSNApp">2f17dea02f2051d0c75eea5ef699b6b2</sys_scope>
         <sys_update_name>sys_script_client_a9e616302f24d9d0c75eea5ef699b645</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-05 07:20:53</sys_updated_on>
+        <sys_updated_on>2022-07-05 07:28:16</sys_updated_on>
         <table>x_528964_testsnapp_testrequests</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>
